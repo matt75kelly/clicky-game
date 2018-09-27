@@ -10,9 +10,9 @@
     "create-react-app": "^1.5.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "cd clicky-game && yarn start",
+    "build": "cd clicky-game && yarn build",
+    "test": "cd clicky-game && yarn test",
+    "eject": "cd clicky-game && yarn eject"
   }
 }
